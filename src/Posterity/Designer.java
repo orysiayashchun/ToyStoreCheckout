@@ -2,17 +2,21 @@ package Posterity;
 
 import Base.Toy;
 
+import java.util.Date;
+
 public class Designer extends Toy {
     private int numberOfElements;
 
-    public Designer(String name, float price, int numberOfElements) {
-        super(name, price);
+    public Designer(String name, float price, Date deliveryDate,int numberOfElements) {
+        super(name, price,deliveryDate);
         this.numberOfElements=numberOfElements;
     }
 
     public Designer(String article, int price, Boolean speak) {
         super();
     }
+
+
 
     public int getNumberOfElements() {
         return numberOfElements;
@@ -24,7 +28,7 @@ public class Designer extends Toy {
 
     @Override
     public String toString() {
-        return "numberOfElements=" + numberOfElements+'\''+", "
+        return "Designer: "+"numberOfElements=" + numberOfElements+'\''+", "
                 + super.toString();
     }
 }

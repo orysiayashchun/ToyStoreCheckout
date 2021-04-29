@@ -1,12 +1,12 @@
 package Posterity;
 
 import Base.Toy;
-
+import java.util.Date;
 public class SoftToy extends Toy {
     private boolean isSpeaking;
 
-    public SoftToy(String name, float price, boolean isSpeaking) {
-        super(name, price);
+    public SoftToy(String name, float price, Date deliveryDate,boolean isSpeaking) {
+        super(name, price,deliveryDate);
         this.isSpeaking=isSpeaking;
     }
 
@@ -20,7 +20,7 @@ public class SoftToy extends Toy {
 
     @Override
     public String toString() {
-        return  "isSpeaking=" + isSpeaking+ '\''+", "
+        return  "SoftToy: "+"isSpeaking=" + isSpeaking+ '\''+", "
                 + super.toString();
     }
 }

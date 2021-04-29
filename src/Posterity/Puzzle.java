@@ -1,12 +1,12 @@
 package Posterity;
 
 import Base.Toy;
-
+import java.util.Date;
 public class Puzzle extends Toy {
     private int numberOfPuzzles;
 
-    public Puzzle(String name, float price,int numberOfPuzzles) {
-        super(name, price);
+    public Puzzle(String name, float price,Date deliveryDate,int numberOfPuzzles) {
+        super(name, price,deliveryDate);
         this.numberOfPuzzles=numberOfPuzzles;
     }
 
@@ -20,7 +20,7 @@ public class Puzzle extends Toy {
 
     @Override
     public String toString() {
-        return  "numberOfPuzzles=" + numberOfPuzzles+'\''+", "
+        return  "Puzzle: "+"numberOfPuzzles=" + numberOfPuzzles+'\''+", "
                 + super.toString();
     }
 }
