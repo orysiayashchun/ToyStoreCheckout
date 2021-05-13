@@ -1,0 +1,2 @@
+Puzzle: numberOfPuzzles=200', article=2a', price=80.3, deliveryDate= Mon May 03 08:34:13 EEST 2021
+Puzzle: numberOfPuzzles=500', article=2b', price=120.3, deliveryDate= Sat May 08 08:34:13 EEST 2021

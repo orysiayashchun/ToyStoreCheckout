@@ -1,0 +1,2 @@
+SoftToy: isSpeaking=true', article=3a', price=250.4, deliveryDate= Wed Apr 28 08:34:13 EEST 2021
+SoftToy: isSpeaking=false', article=3b', price=120.6, deliveryDate= Thu May 06 08:34:13 EEST 2021

@@ -1,0 +1,2 @@
+Designer: numberOfElements=120', article=1b', price=150.5, deliveryDate= Wed May 05 08:34:13 EEST 2021
+Designer: numberOfElements=4444', article=пп', price=444.0, deliveryDate= Thu May 13 08:34:24 EEST 2021
